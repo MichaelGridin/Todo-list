@@ -1,0 +1,190 @@
+body {
+    background-color: lightblue;
+    min-height: 100vh;
+    display: grid;
+    align-items: start;
+    justify-items: center;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .homespan {
+      /* display: grid;
+      justify-items: left; */
+      text-decoration: none;
+      font-weight: bold;
+      color: black;
+      font-size: 1.2em;
+      margin-top: 2.5em;
+      margin-left: 5em;
+      border-bottom: 3px;
+      border-bottom-style: solid;
+      border-bottom-color: rgb(7, 28, 221);
+  }
+
+  .navigator {
+      width: 100vw;
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      height: 7em;
+  }
+
+  .task {
+      display: flex;
+      flex-direction: row;
+  }
+
+  img {
+      display: grid;
+      width: 50px;
+      height: 50px;
+      justify-self: right;
+      border-radius: 50%;
+      margin-top: 1.5em;
+      margin-right: 5em;
+  }
+
+  .shopping-item {
+      background-color: white;
+      padding: .6em 1.3em;
+      font-size: 1.4em;
+      border-radius: .5em;
+      font-weight: bold;
+      display: flex;
+      margin-bottom: 1em;
+      justify-content: space-between;
+      flex-direction: row;
+      align-items: center;
+  }
+
+  .createbutton {
+      background: rgb(7, 28, 221);
+      color: white;
+      padding: .6em 1.3em;
+      font-size: 1.4em;
+      border-radius: .5em;
+      font-weight: bold;
+      display: inline-block;
+      margin-left: 12px;
+  }
+
+  #item {
+    padding: .6em 1.3em;
+    font-size: 1.4em;
+    border-radius: .5em;
+  }
+
+  .h1todo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+
+  }
+
+  .remove-button {
+      background: white;
+      color: black;
+      border-radius: 50%;
+      font-size: 35px;
+      border: none;
+  }
+
+  .checkbox {
+      size: 10em;
+      margin: 0;
+  }
+
+  .checkbox-container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+
+  .itemName {
+      margin-left: 12px;
+  }
+
+  .input-container {
+      background: white;
+      border-radius: .5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .input-field {
+      border: none;
+      outline: none;
+  }
+
+  .input-button {
+      margin-right: 32px;
+      background: blue;
+      border-radius: 50%;
+      color: blue;
+  }
+
+  .circle {
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      background: blue;
+      display: inline-block;
+  }
+
+  .circle.urgent {
+      background: red;
+  }
+
+  .clicked {
+      background: red;
+      color: red;
+  }
+
+  input[type="checkbox"] {
+      background: blue;
+  }
+  
+  .container {
+      display: inline-flex;
+      align-items: center;
+      cursor: pointer;
+  }
+
+  .checkbox {
+      display: none;
+  }
+
+  .checkbox-box {
+      width: 1.25em;
+      height: 1.25em;
+      border: 2px solid #cccccc;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      /* margin-right: 10px; */
+      flex-shrink: 0;
+      transition: background 0.15s, border-color 0.15s;
+  }
+
+  .checkbox-box::after {
+      content: '\2714';
+      color: #ffffff;
+  }
+
+  .checkbox:checked + .checkbox-box {
+      background: rgb(7, 28, 221);
+      border-color: rgb(7, 28, 221);
+  }
+
+  .circle-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .list {
+      padding: 0;
+  }

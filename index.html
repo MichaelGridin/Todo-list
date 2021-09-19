@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="navigator">
+        <span class="homespan">Home</span>
+        <img src="https://picsum.photos/200/300" alt="photo">
+    </div>
+    <div class="todo-list">
+        <h1 class="h1todo">TODO List</h1>
+        <form class="task" autocomplete="off">
+            <div class="input-container">
+                <input class="input-field" type="text" name="item" id="item" placeholder="Write a new task">
+                <button class="input-button">&times;</button>
+            </div>
+            <button type="submit" class="createbutton">Create</button>
+        </form>
+        <ul class="list"></ul>
+    </div>
+
+    <script src="./todo.js"></script>
+</body>
+</html>
