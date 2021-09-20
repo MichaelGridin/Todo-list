@@ -1,4 +1,3 @@
-// hello
 const taskForm = document.querySelector('.task');
 const list = document.querySelector('.list');
 const inputbutton = document.querySelector('.input-button');
